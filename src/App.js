@@ -1,10 +1,7 @@
 import React from "react"
 import Socials from "./components/Socials"
-import Info from "./components/Info"
-import JavaSection from "./components/JavaSection"
-import NodejsSection from "./components/NodejsSection"
-import HtmlSection from "./components/HtmlSection"
-import ReactSection from "./components/ReactSection"
+import Navigation from "./components/Navigation"
+import Main from "./components/Main"
 
 const header = "aidanch1"
 
@@ -32,15 +29,10 @@ class App extends React.Component {
     return (
       <main>
         <h1 className={"intro text-center" + (this.state.introNotDone ? "" : " top")}>{this.state.header}</h1>
+        <Navigation hide={this.state.introNotDone}/>
         <div className={"main-area" + (this.state.introNotDone ? " hidden" : "")}>
           <Socials />
-          <Info />
-          <div className="d-flex justify-content-around">
-            <JavaSection />
-            <NodejsSection />
-            <HtmlSection />
-            <ReactSection />
-          </div>
+          <Main />
         </div>
       </main>
     )

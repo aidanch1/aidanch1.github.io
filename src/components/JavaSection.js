@@ -13,14 +13,14 @@ function JavaSection(){
             />
             <Project 
                 image="/project-thumbnails/usaco.png"
-                link="http://www.usaco.org/"
+                
                 name="USACO"
                 description="I've probably invested over 100 hours into USACO. (I'm in the gold division) 
-                I'm familiar with basic concepts like sorting, DP, shortest paths, flood fill, dfs/bfs. Finding creative patterns/tricks is also needed to meet runtime limits."
+                I'm familiar with basic concepts like sorting, DP, shortest paths, flood fill, dfs/bfs, and finding tricks to cut down the runtime."
             />
             <Project 
                 image="/apple-touch-icon.png"
-                link=""
+                
                 name="Other stuff"
                 description={["I like automating mundane tasks with java's robot class. Some libraries which I've used are ",
                 <a className="whitelink" href="https://github.com/kristian/system-hook" target="_blank">system hook</a>," and ",

@@ -1,12 +1,12 @@
 import React from "react"
 
-function Info(){
+function About(){
     return (
-        <h3 className="text-center mb-5">
+        <h3 className="text-center">
             I'm a 17 year old freshman at the University of Washington.<br />
             I like coding and hope to major in CS.
         </h3>
     )
 }
 
-export default Info
+export default About

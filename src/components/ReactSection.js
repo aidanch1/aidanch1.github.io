@@ -16,7 +16,7 @@ function ReactSection(){
                 image="/apple-touch-icon.png"
                 link=""
                 name="Personal Website"
-                description="This website is built with React!. Some bits are a bit scuffed but I think its fine overall. I'll definitely add to it in the future."
+                description="This website is built with React! Some bits are a bit scuffed but I think its fine overall. I'll definitely add to it in the future."
             />
             <Project 
                 image="/project-thumbnails/memegenerator.png"
@@ -28,7 +28,8 @@ function ReactSection(){
             <Project 
                 image=""
                 name="Misc."
-                description="I have minimal experience with android studio and python."
+                description="Some other skills that aren't worth mentioning in a stand alone bubble: I'm familiar with git, use eclipse and vscode, 
+                and have some experience with android studio and python."
             />
         </div>
     )
