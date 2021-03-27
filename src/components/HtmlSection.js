@@ -22,7 +22,7 @@ function htmlcssSection(){
                 link="https://aidanch1.github.io/TABS/"
                 name="TABS"
                 description={['"Totally accurate brain simulator", a small project made with a friend which lets you make simple neuron circuits, then animates what would happen. It uses ',
-                <a className="whitelink" href="https://graphviz.org/" target="_blank">graphviz</a>,
+                <a className="whitelink" href="https://graphviz.org/" target="_blank" rel="noreferrer">graphviz</a>,
                 " and bootstrap."]}
             />
             <Project 

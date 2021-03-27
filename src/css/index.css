@@ -11,8 +11,9 @@ body {
 	background-color: #000;
 }
 
-h1, h3, h4, p {
+h1, h2, h3, h4, p, li {
 	color: white;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 nav {
@@ -87,4 +88,29 @@ nav ul li a, nav ul li a:hover, nav ul li a:focus {
 
 .aboutrow {
   transform: translateY(-25%)
+}
+
+.post-link {
+  background: rgba(100, 100, 100, 0.5);
+  transition: 0.5s ease-out;
+  margin-top: 10px;
+}
+
+.post-link:hover {
+  text-decoration: none;
+  background: rgba(100, 100, 100, 1);
+  transform: translateX(3%);
+}
+
+.post-link h5 {
+ color: white;
+}
+
+.post-link p {
+  margin-bottom: 0;
+}
+
+.post-link h1 {
+  font-size: 56px;
+  margin-bottom: 0;
 }

@@ -7,9 +7,9 @@ function NodejsSection(){
         <div className="column d-flex flex-column">
             <Skill
                 title="Node.JS"
-                description={["I've made some multiplayer browser games using ", 
-                <a href="https://socket.io/docs/v3" target="_blank">Socket.IO</a>,
-                " and made a couple discord bots. I'm intermediate but by no means an expert."]}
+                description={[<span key="1">I've made some multiplayer browser games using </span>, 
+                <a href="https://socket.io/docs/v3" target="_blank" rel="noreferrer" key="2" className="whitelink">Socket.IO</a>,
+                <span key="3"> and made a couple discord bots. I'm intermediate but by no means an expert.</span>]}
                 color="forestgreen"
             />
             <Project 
@@ -28,8 +28,8 @@ function NodejsSection(){
                 image="/project-thumbnails/St._JerryPFP.png"
                 link="https://github.com/aidanch1/Big-Brain-Jerry-discord-bot-"
                 name="Price Checker"
-                description={["Discord bot for Hypixel Skyblock that fetches auction and bazaar price data from ",
-                <a className="whitelink" href="https://api.hypixel.net/" target="_blank">Hypixel's public api</a>,
+                description={["Discord bot for Hypixel Skyblock that fetches auction and bazaar price data from Hypixel's public ",
+                <a className="whitelink" href="https://api.hypixel.net/" target="_blank" rel="noreferrer">api</a>,
                 " for items the user is interested in buying. Uses a fuzzyset to make it easier to use."]}
             />
         </div>

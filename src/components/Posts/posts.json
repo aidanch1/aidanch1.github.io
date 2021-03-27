@@ -1,0 +1,13 @@
+
+[
+    {
+        "title": "Hello World",
+        "date": "March 26, 2021",
+        "slug": "hello-world"
+    },
+    {
+        "title": "An earlier post",
+        "date": "Jan 1, 2020",
+        "slug": "earlypost"
+    }
+]

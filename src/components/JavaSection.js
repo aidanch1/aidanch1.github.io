@@ -23,8 +23,8 @@ function JavaSection(){
                 
                 name="Other stuff"
                 description={["I like automating mundane tasks with java's robot class. Some libraries which I've used are ",
-                <a className="whitelink" href="https://github.com/kristian/system-hook" target="_blank">system hook</a>," and ",
-                <a className="whitelink" href="https://opencv.org/" target="_blank">OpenCV</a>, 
+                <a className="whitelink" href="https://github.com/kristian/system-hook" target="_blank" rel="noreferrer">system hook</a>," and ",
+                <a className="whitelink" href="https://opencv.org/" target="_blank" rel="noreferrer">OpenCV</a>, 
                 ". These are mostly scripts to get free resources/beat challenges in games."]}
             />
         </div>

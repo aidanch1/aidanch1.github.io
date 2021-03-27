@@ -7,9 +7,9 @@ function ReactSection(){
         <div className="column d-flex flex-column">
             <Skill
                 title="React"
-                description={["I've recently learned ",
-                <a href="https://reactjs.org/" target="_blank">React</a>, 
-                " to improve my front end skills. I'm a beginner, but know the basics."]}
+                description={[<span key="1">I've recently learned </span>,
+                <a href="https://reactjs.org/" target="_blank" rel="noreferrer" key="2" className="whitelink">React</a>, 
+                <span key="3"> to improve my front end skills. I'm a beginner, but know the basics.</span>]}
                 color="deepskyblue"
             />
             <Project 
