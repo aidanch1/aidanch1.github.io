@@ -1,15 +1,18 @@
 import React from "react"
 import { NavLink } from "react-router-dom"
+import Navbar from 'react-bootstrap/Navbar'
+import Nav from 'react-bootstrap/Nav'
 
 function Navigation(props) {
     return (
-        <nav className={props.hide ? " hidden" : ""}>
-            <ul>
-                <li><NavLink exact to='/'>Portfolio</NavLink></li>
-                <li><NavLink exact to='/about'>About</NavLink></li>
-                <li><NavLink exact to='/blog'>Blog</NavLink></li>
-            </ul>
-        </nav>
+        <Navbar className={props.hide ? " hidden" : ""} expand="md" variant="dark">
+            <Navbar.Toggle aria-controls="navlinks" />
+            <Navbar.Collapse id="navlinks">
+                <Nav.Link exact as={NavLink} to="/">Portfolio</Nav.Link>
+                <Nav.Link exact as={NavLink} to="/about">About</Nav.Link>
+                <Nav.Link exact as={NavLink} to="/blog">Blog</Nav.Link>
+            </Navbar.Collapse>
+        </Navbar>
     )
 }
 
