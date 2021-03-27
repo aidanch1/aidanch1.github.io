@@ -4,9 +4,9 @@ import LogoLink from "./LogoLink"
 function About(){
     return (
         <div className="about container">
-            <div className="aboutrow row align-items-center">
+            <div className="aboutrow row">
                 <div className="col-md-auto">
-                    <img src="/self-picture-300x291px.png" alt=""></img>
+                    <img className="aboutSelfPicture" src="/self-picture-300x291px.png" alt=""></img>
                 </div>
                 <div className="col">
                     <h3>
