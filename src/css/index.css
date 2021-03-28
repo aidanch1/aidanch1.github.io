@@ -107,6 +107,14 @@ h1, h2, h3, h4, p, li {
 }
 
 .post-link h1 {
-  font-size: 56px;
+  font-size: 50px;
   margin-bottom: 0;
+}
+
+.post {
+  margin-bottom: 25vh;
+}
+
+hr {
+  border-color: lightgray;
 }

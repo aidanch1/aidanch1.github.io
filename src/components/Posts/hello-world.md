@@ -1,3 +1,16 @@
-# Hello World!
-* The first blog post
-* Will this work??
+# Hello World!  
+*March 26, 2021*  
+
+---
+For my first post I'm going with the incredibly creative idea of talking about building this website. (whoo!) 
+
+So first I learned React for the fun of it, seemed like a useful skill to know (and it is). I watched [this](https://www.youtube.com/watch?v=DLX62G4lc44) entire video and wrote all the little projects the guy in the video mentions. I probably should've been studying for my math final, but coding is way more fun. React is so much better than old school html and javascript, I must say.  
+
+I wanted to make something with React, so I decided to make a portfolio. I planned out how I wanted it to look and got to work. ![my original plan](/blog-images/hello-world/drawingplan.png)   
+Originally I wanted to make it a video game style skilltree, but it didn't display the information in a way that made sense after prototyping it, so I changed it to what it looks like now.  
+
+The work mainly fell under 3 categories: making and styling the components (skeleton), writing the text and getting images for the components (putting stuff on the skeleton), and of course, struggling with random little bugs for **far** too much time. Making the React components was pretty straighforward even with just basic knowledge from the 5 hour video (though I ran into some complications with recursively calling setstate functions from a setTimeout()). The CSS took quite a while because of my lack of experience, though google helped me out. For all the images in this project, they were usually just getting screenshots of my projects or downloading logos, though I had bring out my 7th grade photoshop skills to edit/draw some of them.   
+
+After finishing the portfolio, I figured I might as well add an about and blog page, so I read a few tutorials on React-Router (the first thing I came across, though I probably should've looked into gatsby as well.) Making the pages was actually very intuitive. Just feed the Routes the component they need to display depending on the url. Displaying posts was more challenging, but still pretty intuitive using a url parameter which the Post component can use to get that post from a markdown file. (So now I can just write markdown files to add to the blog). I had a pretty clear image in my mind of how I wanted the about and blog pages to look, so I didn't draw ideas on paper and coded it out.   
+
+The plan for the blog (as of now) is I'm thinking about writing a mixture of tutorials and stories (aka experiences) in it. I'm also going to update the portfolio as I learn and make more stuff. Although I started this to practice making stuff with React, something surprising is I got way better at CSS. I can style simple stuff (like the blog and about page) how I want it to look without referencing google (though I still need it for more complicated animations/layouts)

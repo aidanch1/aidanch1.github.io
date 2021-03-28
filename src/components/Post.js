@@ -20,7 +20,7 @@ class Post extends React.Component {
     }
     render() {
         return (
-            <div className="container">
+            <div className="post container">
                 <ReactMarkdown children={this.state.md}/>
             </div>
         )

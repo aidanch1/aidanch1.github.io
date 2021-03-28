@@ -32,7 +32,10 @@ class ProjectButton extends React.Component {
                 onClick={this.handleClick}
             >{!this.state.showbody ? this.props.name : 
             <div>
-                <a href={this.props.link} target="_blank" rel="noreferrer" className="whitelink">{this.props.name}&#8599;</a>
+                {this.props.link ? 
+                    <a href={this.props.link} target="_blank" rel="noreferrer" className="whitelink">{this.props.name}&#8599;</a> 
+                    : <p className="mb-0">{this.props.name}</p>
+                }
                 <p className="mt-1">{this.props.description}</p>
             </div>}
             </button>
