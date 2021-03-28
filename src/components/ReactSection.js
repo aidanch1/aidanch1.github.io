@@ -14,7 +14,7 @@ function ReactSection(){
             />
             <Project 
                 image="/apple-touch-icon.png"
-                link=""
+                link="https://github.com/aidanch1/aidanch1.github.io"
                 name="Personal Website"
                 description="This website is built with React! Some bits are a bit scuffed but I think its fine overall. I'll definitely add to it in the future."
             />
