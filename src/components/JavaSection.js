@@ -13,7 +13,7 @@ function JavaSection(){
             />
             <Project 
                 image="/project-thumbnails/usaco.png"
-                link="https://github.com/aidanch1/aidanch1.github.io/tree/master/public/files/usaco"
+                
                 name="USACO"
                 description="I've probably invested about 100 hours into USACO. (I'm in the gold division, but the skill inflation is outrageous)
                 I'm familiar with basic concepts like sorting, DP, shortest paths, flood fill, dfs/bfs, etc. and finding tricks to cut down the runtime."
