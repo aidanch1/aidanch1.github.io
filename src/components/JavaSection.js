@@ -2,14 +2,15 @@ import React from "react"
 import Skill from "./Skill"
 import Project from "./ProjectButton"
 
-function JavaSection(){
+function JavaSection(props){
     return (
-        <div className="column d-flex flex-column">
+        <div className={props.isTablet ? "d-flex flex-row" : "column d-flex flex-column"}>
             <Skill
                 title="Java"
                 description="By far my most comfortable language. I have about 3 years of experience and wrote the most code 
                 (usually solving programming problems) in it."
                 color="darkorange"
+                isTablet={props.isTablet}
             />
             <Project 
                 image="/project-thumbnails/usaco.png"

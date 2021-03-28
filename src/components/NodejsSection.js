@@ -2,15 +2,16 @@ import React from "react"
 import Skill from "./Skill"
 import Project from "./ProjectButton"
 
-function NodejsSection(){
+function NodejsSection(props){
     return (
-        <div className="column d-flex flex-column">
+        <div className={props.isTablet ? "d-flex flex-row" : "column d-flex flex-column"}>
             <Skill
                 title="Node.JS"
                 description={[<span key="1">I've made some multiplayer browser games using </span>, 
                 <a href="https://socket.io/docs/v3" target="_blank" rel="noreferrer" key="2" className="whitelink">Socket.IO</a>,
                 <span key="3"> and made a couple discord bots. I'm intermediate but by no means an expert.</span>]}
                 color="forestgreen"
+                isTablet={props.isTablet}
             />
             <Project 
                 image="/project-thumbnails/rubiksrace.png"

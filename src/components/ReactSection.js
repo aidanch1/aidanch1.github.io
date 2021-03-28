@@ -2,15 +2,16 @@ import React from "react"
 import Skill from "./Skill"
 import Project from "./ProjectButton"
 
-function ReactSection(){
+function ReactSection(props){
     return (
-        <div className="column d-flex flex-column">
+        <div className={props.isTablet ? "d-flex flex-row" : "column d-flex flex-column"}>
             <Skill
                 title="React"
                 description={[<span key="1">I've recently learned </span>,
                 <a href="https://reactjs.org/" target="_blank" rel="noreferrer" key="2" className="whitelink">React</a>, 
                 <span key="3"> to improve my front end skills. I'm a beginner, but know the basics.</span>]}
                 color="deepskyblue"
+                isTablet={props.isTablet}
             />
             <Project 
                 image="/apple-touch-icon.png"
