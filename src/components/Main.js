@@ -3,6 +3,7 @@ import Portfolio from "./Portfolio"
 import About from "./About"
 import Blog from "./Blog"
 import Post from "./Post"
+import PageNotFound from "./PageNotFound"
 import { Switch, Route } from 'react-router-dom';
 
 function Main(){
@@ -12,6 +13,7 @@ function Main(){
         <Route exact path='/about' component={About}></Route>
         <Route exact path='/blog' component={Blog}></Route>
         <Route path="/post/:slug" component={Post}></Route>
+        <Route component={PageNotFound} />
     </Switch>
     )
 }
