@@ -11,21 +11,20 @@ function About(){
                 <div className="col">
                     <h3>
                         Hi!<br />
-                        My name is Aidan Chen. Right now I'm a freshman at the University of Washington.<br />
-                        I'm not in a major yet but I hope to get into CS.<br />
+                        My name is Aidan Chen. Right now I'm a CS sophomore at the University of Washington.<br />
                     </h3>
                     <h4>
                         Hobbies: 
                         <ul>
-                            <li>Chess. Add me! 
+                            <li>Chess (Add me!) 
                                 <LogoLink link="https://www.chess.com/member/potatershshh"
                                 logo="/chess.com-Logo.png"/>
                                 <LogoLink link="https://lichess.org/@/POtatershshh"
                                 logo="/lichess-Logo.png"/>
                             </li>
-                            <li>Coding. (wow shocker!)</li>
-                            <li>Playing games. I like minecraft and league. Also big fan of board/card games.</li>
-                            <li>Doing stuff with my friends like swimming, biking, or shooting hoops.</li>
+                            <li>Watching anime, my favorite shows are Your Lie in April and Steins;Gate</li>
+                            <li>Playing games (currently genshin, bedwars). Also party games with friends (Jackbox, poker, drawbattle, random board/card games)</li>
+                            <li>Doing stuff with my friends like swimming, biking, or shooting hoops (pre-covid)</li>
                         </ul>
                     </h4> 
                 </div>

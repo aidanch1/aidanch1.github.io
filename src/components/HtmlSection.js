@@ -2,15 +2,14 @@ import React from "react"
 import Skill from "./Skill"
 import Project from "./ProjectButton"
 
-function htmlcssSection(props){
+function htmlcssSection(){
     return (
-        <div className={props.isTablet ? "d-flex flex-row" : "column d-flex flex-column"}>
+        <div className={"d-flex flex-row justify-content-start w-50"}>
             <Skill
                 title="HTML/CSS/JS"
                 description="Anything which opens in the browser has included some html, css, or javascript. 
                 I never formally learned; just googled stuff."
                 color="gold"
-                isTablet={props.isTablet}
             />
             <Project 
                 image="/project-thumbnails/sudoku.png"

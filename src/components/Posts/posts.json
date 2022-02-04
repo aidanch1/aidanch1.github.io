@@ -1,6 +1,16 @@
 
 [
     {
+        "title": "First internship!",
+        "date": "January 20, 2022",
+        "slug": "first-internship"
+    },
+    {
+        "title": "How to get into UW CS",
+        "date": "July 29, 2021",
+        "slug": "how-to-get-into-uw-cs"
+    },
+    {
         "title": "Hello World",
         "date": "March 26, 2021",
         "slug": "hello-world"
