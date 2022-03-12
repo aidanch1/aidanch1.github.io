@@ -16,7 +16,7 @@ class App extends React.Component {
   updateHeader(index){
     if (index <= header.length){
       this.setState({ header: header.substring(0, index) })
-      let pause = (index === header.length-1) ? 350 : 100
+      let pause = (index === header.length-1) ? 300 : 100
       setTimeout(this.updateHeader.bind(this, index+1), pause)
     } else {
       this.setState({ introNotDone: false })

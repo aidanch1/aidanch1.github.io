@@ -7,8 +7,14 @@ function CSection(){
         <div className={"d-flex flex-row justify-content-start w-50"}>
             <Skill
             title="C"
-            description="Took a class and know basics of C and kind of assembly, not an expert but its a useful skill so I'm shoving it here >:)"
+            description="I've gained experience in C and C++ through projects in class. Taken CSE 351 and I'm taking CSE 333 next quarter"
             color="#00589d"
+            />
+            <Project
+            image="/project-thumbnails/freeblock.png"
+            name="Dynamic Storage Allocator"
+            description="Implemented a memory allocator using an explicit free list, supporting malloc and free functionality. 
+            Achieved on average 84% space utilization and matched the speed of the malloc library"
             />
         </div>
     )

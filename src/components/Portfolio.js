@@ -14,16 +14,15 @@ function Portfolio() {
     return (
         <div>
             <h3 className="text-center mb-5">
-                I'm a 17 year old sophmore at the University of Washington.<br />
-                I like coding ( •̀ ω •́ )✧
+                Computer science student at the University of Washington
             </h3>
             <div className={"d-flex flex-column align-items-center"}>
                 <JavaSection/>
                 <NodejsSection/>
-                <PythonSection/>
                 <HtmlSection/>
-                <ReactSection/>
                 <CSection/>
+                <ReactSection/>
+                <PythonSection/>
             </div>
         </div>
         

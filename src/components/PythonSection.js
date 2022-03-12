@@ -7,19 +7,20 @@ function PythonSection(){
         <div className={"d-flex flex-row justify-content-start w-50"}>
             <Skill
                 title="Python"
-                description="When I have time I really want to build some bigger projects in python. I learned python in a class and now do all my LeetCode questions in python."
+                description="I'm planning on building some bigger projects soon."
                 color="#3474a5"
             />
             <Project 
-                image="/apple-touch-icon.png"
+                image="/project-thumbnails/numpy.png"
                 name="Classwork"
-                description="In my class we used python to make probabilistic data structures and run simulations"
+                description="Learned and implemented probabilistic data strucutures such as Bayseian filters, Bloom filters, and distinct element estimation.
+                Learned how to use simulations to solve the knapsack and multi-armed bandits problem"
             />
             <Project 
                 image="/project-thumbnails/LeetCode_logo_black.png"
                 link="https://leetcode.com/aidanch1/"
                 name="LeetCode"
-                description="I do contests sometimes"
+                description="Competed in 14 coding contests, achieving a rating of 1913 (top 3%) and Knight Badge."
             />
         </div>
     )

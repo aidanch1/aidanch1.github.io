@@ -1,5 +1,6 @@
 import React from "react"
 import LogoLink from "./LogoLink"
+import Age from "./Age"
 
 function About(){
     return (
@@ -10,8 +11,9 @@ function About(){
                 </div>
                 <div className="col">
                     <h3>
-                        Hi!<br />
-                        My name is Aidan Chen. Right now I'm a CS sophomore at the University of Washington.<br />
+                        Name: Aidan Chen <br />
+                        Year: Sophomore <br />
+                        Age: <Age /> years
                     </h3>
                     <h4>
                         Hobbies: 
@@ -22,9 +24,9 @@ function About(){
                                 <LogoLink link="https://lichess.org/@/POtatershshh"
                                 logo="/lichess-Logo.png"/>
                             </li>
+                            <li>Playing games (currently genshin, bedwars). Also party games with friends</li>
                             <li>Watching anime, my favorite shows are Your Lie in April and Steins;Gate</li>
-                            <li>Playing games (currently genshin, bedwars). Also party games with friends (Jackbox, poker, drawbattle, random board/card games)</li>
-                            <li>Doing stuff with my friends like swimming, biking, or shooting hoops (pre-covid)</li>
+                            <li>Doing stuff with my friends like swimming, biking, or shooting hoops</li>
                         </ul>
                     </h4> 
                 </div>

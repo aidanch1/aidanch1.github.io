@@ -7,9 +7,7 @@ function ReactSection(){
         <div className={"d-flex flex-row justify-content-start w-50"}>
             <Skill
                 title="React"
-                description={[<span key="1">I've recently learned </span>,
-                <a href="https://reactjs.org/" target="_blank" rel="noreferrer" key="2" className="whitelink">React</a>, 
-                <span key="3"> to improve my front end skills. I'm a beginner, but know the basics.</span>]}
+                description="I've used react for the front end of multiple projects"
                 color="deepskyblue"
             />
             <Project 

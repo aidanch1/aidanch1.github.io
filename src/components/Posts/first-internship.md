@@ -9,6 +9,6 @@
 - Leetcode: 105 easy, 266 medium, 42 hard
 ---
 ## Results: 
-I started applying late (middle of december) so many spots weren't available. 122 applications, haven't heard back from 75% of places yet, but got the first offer on the table! Super happy because its a pretty good offer too
-I applied through the [pittcsc github repo](https://github.com/pittcsc/Summer2022-Internships) and also UW handshake, with a few places on linkedin  
+I started applying late (middle of december) so many spots weren't available. 122 applications, and got the first offer on the table! ($42/hr)
+I applied through the [pittcsc github repo](https://github.com/pittcsc/Summer2022-Internships), UW handshake, and linkedin  
 Takeaways: next year, apply earlier, it'll make the search easier. August is when many big companies open up their applications.
