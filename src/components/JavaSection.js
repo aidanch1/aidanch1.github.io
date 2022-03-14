@@ -25,6 +25,7 @@ function JavaSection(){
             />
             <Project
                 image="/project-thumbnails/mazegenerator.png"
+                link="/mazeapp.jar"
                 name="Maze Generator"
                 description="An app which generates a solveable maze using Kruskals algorithm to ensure start and end are connected, using randomized weights between rooms to create a random looking maze. 
                 Can also solve the maze using dijkstra's algorithm"
