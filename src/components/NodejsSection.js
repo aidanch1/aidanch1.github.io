@@ -4,14 +4,10 @@ import Project from "./ProjectButton"
 
 function NodejsSection(){
     return (
-        <div className={"d-flex flex-row justify-content-start w-50"}>
+        <div className={"d-flex flex-row justify-content-start"}>
             <Skill
                 title="Node.JS"
-                description={[<span key="1">I've made some multiplayer browser games using </span>, 
-                <a href="https://expressjs.com/" target="_blank" rel="noreferrer" key="4" className="whitelink">Express</a>,
-                <span key="5"> as the server and </span>,
-                <a href="https://socket.io/docs/v3" target="_blank" rel="noreferrer" key="2" className="whitelink">Socket.IO</a>,
-                <span key="3"> to handle communication. Also made a discord bot</span>]}
+                description="I've made some multiplayer browser games using Express and Socket.IO. Also made a discord bot"
                 color="forestgreen"
             />
             <Project 

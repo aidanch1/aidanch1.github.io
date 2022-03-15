@@ -4,10 +4,10 @@ import Project from "./ProjectButton"
 
 function CSection(){
     return (
-        <div className={"d-flex flex-row justify-content-start w-50"}>
+        <div className={"d-flex flex-row justify-content-start"}>
             <Skill
             title="C"
-            description="I've gained experience in C and C++ through projects in class. Taken CSE 351 and I'm taking CSE 333 next quarter"
+            description="I've gained experience in C and C++ through projects in class"
             color="#00589d"
             />
             <Project

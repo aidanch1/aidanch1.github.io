@@ -4,10 +4,10 @@ import Project from "./ProjectButton"
 
 function PythonSection(){
     return (
-        <div className={"d-flex flex-row justify-content-start w-50"}>
+        <div className={"d-flex flex-row justify-content-start"}>
             <Skill
                 title="Python"
-                description="I'm planning on building some bigger projects soon."
+                description="I've used python a decent amount, but haven't gotten around to building projects yet"
                 color="#3474a5"
             />
             <Project 

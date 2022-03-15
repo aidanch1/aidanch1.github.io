@@ -122,3 +122,8 @@ hr {
 .w-100 {
   max-width: 1400px;
 }
+
+.center {
+  display: flex;
+  justify-content: center;
+}

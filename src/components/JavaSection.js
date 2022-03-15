@@ -4,7 +4,7 @@ import Project from "./ProjectButton"
 
 function JavaSection(){
     return (
-        <div className={"d-flex flex-row justify-content-start w-50"}>
+        <div className={"d-flex flex-row justify-content-start"}>
             <Skill
                 title="Java"
                 description="I'm the most comfortable with java, have gotten familiar with its libraries over the past 3 years"
@@ -23,6 +23,13 @@ function JavaSection(){
                 name="Maze Generator"
                 description="An app which generates a solveable maze using Kruskals algorithm to ensure start and end are connected, using randomized weights between rooms to create a random looking maze. 
                 Can also solve the maze using dijkstra's algorithm"
+            />
+            <Project 
+                image="/project-thumbnails/sudoku.png"
+                link="https://github.com/jamesm62/sudokusolver"
+                name="Sudoku Master"
+                description="A web app I made with a couple friends which solves and generates sudoku puzzles using Java. 
+                I created the front end which calls the API endpoints and displays the information."
             />
             <Project 
                 image="/project-thumbnails/usaco.png"
