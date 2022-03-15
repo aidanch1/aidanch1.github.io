@@ -12,7 +12,7 @@ function CSection(){
             />
             <Project
             image="/project-thumbnails/freeblock.png"
-            name="Dynamic Storage Allocator"
+            name="Dynamic Memory Allocator"
             description="Implemented a memory allocator using an explicit free list, supporting malloc and free functionality. 
             Achieved on average 84% space utilization and matched the speed of the malloc library"
             />
